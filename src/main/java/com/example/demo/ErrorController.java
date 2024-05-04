@@ -13,7 +13,7 @@ public class ErrorController {
     public void triggerError() {
         try {
             // Lanza intencionalmente una excepción para probar la integración con Sentry
-            throw new Exception("This is a test.");
+            throw new Exception("Estes es un test.");
         } catch (Exception e) {
             // Captura y envía la excepción a Sentry
             Sentry.captureException(e);
