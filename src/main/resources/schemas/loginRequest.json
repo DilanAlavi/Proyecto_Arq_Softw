@@ -1,0 +1,17 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "LoginRequest",
+    "description": "Solicitud de inicio de sesión",
+    "type": "object",
+    "properties": {
+        "email": {
+            "type": "string",
+            "format": "email"
+        },
+        "password": {
+            "type": "string",
+            "minLength": 8
+        }
+    },
+    "required": ["email", "password"]
+}

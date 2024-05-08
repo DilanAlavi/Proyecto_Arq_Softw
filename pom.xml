@@ -39,6 +39,11 @@
       <version>2.5.0</version>
 	  
    </dependency>
+   		<dependency>
+			<groupId>com.networknt</groupId>
+			<artifactId>json-schema-validator</artifactId>
+			<version>1.4.0</version>
+		</dependency>
    <dependency>
     <groupId>com.newrelic.agent.java</groupId>
     <artifactId>newrelic-java</artifactId>

@@ -1,0 +1,16 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "LoginResponse",
+    "description": "Respuesta de inicio de sesión",
+    "type": "object",
+    "properties": {
+        "token": {
+            "type": "string"
+        },
+        "timestamp": {
+            "type": "string",
+            "format": "date-time"
+        }
+    },
+    "required": ["token", "timestamp"]
+}
